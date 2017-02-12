@@ -3,6 +3,7 @@
 from __future__ import print_function
 
 import urllib2
+import string
 
 def getprice():
     response = urllib2.urlopen('https://blockchain.info/q/24hrprice')
@@ -39,7 +40,7 @@ def get_response():
 
     session_attributes = {}
     card_title = "Bitcoinpreis"
-    speech_output = "Der aktuelle Bitcoinpreis ist "+getprice()+" US-Dollar"
+    speech_output = "Der aktuelle Bitcoinpreis ist "+string.replace(getprice(), ".", ",")+" US-Dollar"
 
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output))
