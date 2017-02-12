@@ -1,0 +1,7 @@
+BitcoinIntent		nach dem Preis.
+BitcoinIntent		wie der Preis ist.
+BitcoinIntent		nach dem Preis
+BitcoinIntent     	dem Bitcoinpreis
+BitcoinIntent     	wie der aktuelle Bitcoinpreis ist
+AMAZON.HelpIntent	nach Hilfe.
+AMAZON.HelpIntent	Hilfe
